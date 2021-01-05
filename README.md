@@ -1,3 +1,5 @@
+[![Header](https://raw.githubusercontent.com/MartinHeinz/<OWNER>/<OWNER>/readme_header.png "Header")](https://some-url.dev/)
+
 ## Hi, I'm Denis 👋🏽
 
 - 👨🏻‍💻 *Remote Fullstack Developer (#OpenToWork)*
@@ -8,15 +10,15 @@ package me
 
 type About struct {}
  
-func (r *About) getCurrentWorkplace() int {
+func (self *About) getCurrentWorkplace() string {
     return "#OpentToWork"
 }
 
-func (r *About) getHardSkills() int {
+func (self *About) getHardSkills() []string {
     return []string{"PHP/Laravel", "Python/Django", "Golang", "Angular", "API REST/GraphQL", "Scrum/Jira", "Postgres/Mongo",}
 }
 
-func (r *About) getSoftSkills() int {
-    return []string{"Vuejs", "ReactJs", "Node/Express", "Wordpress", "Devops/Docker/Terraform", "firebase"}
+func (self *About) getSoftSkills() []string {
+    return []string{"Vuejs", "ReactJs", "Node/Express", "Wordpress", "Devops/Docker/Terraform", "firebase",}
 }
 ```
