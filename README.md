@@ -1,16 +1,22 @@
-### Hi there 👋
+## Hi, I'm Denis 👋🏽
 
-<!--
-**denuxs/denuxs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 👨🏻‍💻 *Remote Fullstack Developer (#OpenToWork)*
 
-Here are some ideas to get you started:
+## About me...
+```go
+package me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+type About struct {}
+ 
+func (r *About) getCurrentWorkplace() int {
+    return "#OpentToWork"
+}
+
+func (r *About) getHardSkills() int {
+    return []string{"PHP/Laravel", "Python/Django", "Golang", "Angular", "API REST/GraphQL", "Scrum/Jira", "Postgres/Mongo",}
+}
+
+func (r *About) getSoftSkills() int {
+    return []string{"Vuejs", "ReactJs", "Node/Express", "Wordpress", "Devops/Docker/Terraform", "firebase"}
+}
+```
