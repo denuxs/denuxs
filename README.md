@@ -1,8 +1,8 @@
 [![Header](https://raw.githubusercontent.com/MartinHeinz/<OWNER>/<OWNER>/readme_header.png "Header")](https://some-url.dev/)
 
-## Hi, I'm Denis 👋🏽
+## Hola, Soy Denis 👋🏽
 
-- 👨🏻‍💻 *Remote Fullstack Developer (#OpenToWork)*
+- 👨🏻‍💻 *Remote Backend Developer (#OpenToWork)*
 
 ## About me...
 ```go
@@ -15,10 +15,10 @@ func (self *About) getCurrentWorkplace() string {
 }
 
 func (self *About) getHardSkills() []string {
-    return []string{"PHP/Laravel", "Python/Django", "Golang", "Angular", "API REST/GraphQL", "Scrum/Jira", "Postgres/Mongo",}
+    return []string{"PHP", "Python", "Golang", "Node/Express/Nestjs", "Angular/Tailwind", "Unit Testing", "Postgres/SQL Server,Mongo,Redis"}
 }
 
-func (self *About) getSoftSkills() []string {
-    return []string{"Vuejs", "ReactJs", "Node/Express", "Wordpress", "Devops/Docker/Terraform", "firebase",}
+func (self *About) getJunioSkills() []string {
+    return []string{"Vuejs", "ReactJs", "Wordpress", "Spring Boot", "Devops/AWS/Azure",}
 }
 ```
