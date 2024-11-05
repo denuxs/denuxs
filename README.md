@@ -1,8 +1,8 @@
-[![Header](https://raw.githubusercontent.com/MartinHeinz/<OWNER>/<OWNER>/readme_header.png "Header")](https://some-url.dev/)
+[![Header](https://raw.githubusercontent.com/denuxs/denuxs/main/readme_header.jpeg "Header")](https://some-url.dev/)
 
-## Hola, Soy Denis 👋🏽
+# Hola, Soy Denis 👋🏽
 
-- 👨🏻‍💻 *Remote Backend Developer (#OpenToWork)*
+👨🏻‍💻 Full Stack Developer de Nicaragua. Actualmente aprendiendo sobre IA con Python
 
 ## About me...
 ```go
@@ -18,7 +18,7 @@ func (self *About) getHardSkills() []string {
     return []string{"PHP", "Python", "Golang", "Node/Express/Nestjs", "Angular/Tailwind", "Unit Testing", "Postgres/SQL Server,Mongo,Redis"}
 }
 
-func (self *About) getJunioSkills() []string {
-    return []string{"Vuejs", "ReactJs", "Wordpress", "Spring Boot", "Devops/AWS/Azure",}
+func (self *About) getJuniorSkills() []string {
+    return []string{"Vuejs", "ReactJs", "Wordpress", "Spring Boot", "Devops/AWS/Azure"}
 }
 ```
