@@ -2,7 +2,7 @@
 
 # Hola, Soy Denis 👋🏽
 
-👨🏻‍💻 Full Stack Developer de Nicaragua. Actualmente aprendiendo sobre IA con Python
+👨🏻‍💻 Programador de día y Arquero de Futsala por las noches :3. Mi stack más usual es Python/Django con Angular pero también he usado PHP, Node, Go y en algunas ocasiones básicas React, Vue, cositas en Devops
 
 ## About me...
 ```go
