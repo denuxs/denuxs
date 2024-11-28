@@ -10,15 +10,17 @@ package me
 
 type About struct {}
  
-func (self *About) getCurrentWorkplace() string {
+func (me About) getCurrentWorkplace() string {
     return "#OpentToWork"
 }
 
-func (self *About) getHardSkills() []string {
-    return []string{"PHP", "Python", "Golang", "Node/Express/Nestjs", "Angular/Tailwind", "Unit Testing", "Postgres/SQL Server,Mongo,Redis"}
+func (me About) getSkills() []string {
+    return []string{"PHP/Laravel", "Python/Django/Fastapi", "Golang/Echo/Gorm",
+        "Node/Express/Nestjs", "Angular/Tailwind", "Jest/Selenium",
+        "Postgres/SQL Server,Mongo,Redis"}
 }
 
-func (self *About) getJuniorSkills() []string {
+func (me *About) getJuniorSkills() []string {
     return []string{"Vuejs", "ReactJs", "Wordpress", "Spring Boot", "Devops/AWS/Azure"}
 }
 ```
