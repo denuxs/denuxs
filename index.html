@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis Portaolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-slate-50 p-4 md:p-8">
+      <div class="mx-auto max-w-6xl space-y-8">
+        <div class="grid gap-6 md:grid-cols-[300px,1fr]">
+          <div class="space-y-4">
+            <div class="relative">
+              <img
+                src="https://avatars.githubusercontent.com/u/1816992?v=4"
+                alt="Profile"
+                width="250"
+                height="250"
+                class="rounded-full"
+              />
+            </div>
+            <div class="space-y-2">
+              <h1 class="m-0 text-2xl font-bold">Denis Lopez</h1>
+              <p class="text-slate-600">Backend Developer</p>
+            </div>
+            <div class="space-y-2 text-sm">
+              <p class="font-medium">Full-Stack Developer</p>
+              <div class="flex items-center text-slate-500">
+                <MapPinIcon className="mr-2 h-4 w-4" />
+                Lisbon, Portugal
+              </div>
+              <div class="flex items-center text-slate-500">
+                <a href="#" class="hover:text-blue-500">caneco.dev</a>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <button
+                class="ring-offset-background focus-visible:ring-ring border-input hover:bg-accent hover:text-accent-foreground inline-flex h-10 w-full items-center justify-center gap-2 whitespace-nowrap rounded-md border bg-green-500 px-4 py-2 text-sm font-semibold text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+              >
+                Donwload CV
+              </button>
+            </div>
+          </div>
+
+          <div class="space-y-6">
+            <div class="rounded-lg border bg-white p-6 shadow-sm">
+              <h2 class="mb-4 text-xl font-semibold">Hello, folks!</h2>
+              <p class="mb-4">
+                A Full-Stack Developer by day and a Laravel Community
+                Contributor by night
+              </p>
+              <div class="space-y-4">
+                <p>Full-Stack Developer at Medicare;</p>
+                <p>Host/Organizing Laracon EU;</p>
+                <div class="space-y-2">
+                  <p>I use daily:</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span
+                      class="focus:ring-ring text-secondary-foreground hover:bg-secondary/80 inline-flex items-center rounded-full border border-transparent bg-slate-200 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2"
+                      >.php</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <h2 class="text-xl font-semibold">Proyectos</h2>
+              <div class="grid gap-4 md:grid-cols-2">
+                <div class="rounded-lg border bg-white p-4 shadow-sm">
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                      <a
+                        href="#"
+                        class="font-medium text-blue-500 hover:underline"
+                      >
+                        desing tips
+                      </a>
+                      <span
+                        class="focus:ring-ring text-foreground inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2"
+                        >Public</span
+                      >
+                    </div>
+                    <p class="text-sm text-slate-700">
+                      The unofficial (but blessed) Laravel country Logomarks
+                    </p>
+                    <div
+                      class="text-muted-foreground flex items-center space-x-4 text-sm"
+                    >
+                      <span class="flex items-center">
+                        <div
+                          class="mr-2 h-3 w-3 rounded-full bg-yellow-500"
+                        ></div>
+                        python
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
